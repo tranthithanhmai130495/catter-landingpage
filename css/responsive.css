@@ -14,16 +14,17 @@
 
 @media only screen and (max-width: 1200px) {
     .text-bottom {
-        font-size: 120px;
+        font-size: 105px;
         color: #ebff07;
         font-weight: 900;
-        letter-spacing: 50px;
+        letter-spacing: 55px;
         font-family: 'Roboto', sans-serif;
         margin-left: -10px;
+        text-align: left;
     }
 
     .text-top {
-        font-size: 46px;
+        font-size: 47px;
         color: #ffffff;
         font-weight: 900;
         letter-spacing: 18px;
@@ -55,20 +56,21 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .text-bottom {
-        font-size: 90px;
-        color: #ebff07;
-        font-weight: 900;
-        letter-spacing: 40px;
-        font-family: 'Roboto', sans-serif;
-        margin-left: -10px;
-    }
     .text-top {
         font-size: 40px;
         color: #ffffff;
         font-weight: 900;
-        letter-spacing: 11px;
+        letter-spacing: 10px;
         font-family: 'Roboto', sans-serif;
+    }
+
+    .text-bottom {
+        font-size: 90px;
+        color: #ebff07;
+        font-weight: 900;
+        letter-spacing: 32px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: -10px;
     }
 
     .box-card-image-warpper{
@@ -194,10 +196,14 @@
 
     .text-slider {
         position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
+        top: 0;
+        left: 0;
+        margin-top: -45px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-top: -15px;
     }
 
@@ -316,6 +322,11 @@
         background: #fff;
         border-radius: 50%;
     }
+
+    .box-icon {
+        padding: 0 10px;
+        width: 33.33%;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -343,11 +354,51 @@
     }
 
     .text-bottom {
-        font-size: 45px;
+        font-size: 40px;
+        color: #ebff07;
+        font-weight: 900;
+        letter-spacing: 20px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 0;
+    }
+
+    .box-icon {
+        padding: 0 10px;
+        width: 33.33%;
+    }
+
+    .box-icon-warpper {
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .text-top {
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 900;
+        letter-spacing: 4px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .text-bottom {
+        font-size: 33px;
         color: #ebff07;
         font-weight: 900;
         letter-spacing: 18px;
         font-family: 'Roboto', sans-serif;
         margin-left: 0;
+    }
+
+    .table-content tr td:first-child {
+        padding-right: 12px;
+    }
+
+    .box-content-message,
+    .box-business-content,
+    .box-content-corporate,
+    .box-recruit-content,
+    .box-contact-content {
+        padding: 15px;
     }
 }

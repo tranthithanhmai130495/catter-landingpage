@@ -43,7 +43,7 @@ $(document).ready(function () {
     $('.link-message').click(function () {
         $('html, body').animate({
             scrollTop: message.top
-        }, 2000);
+        }, 1000);
         return false;
 
     });
@@ -51,7 +51,7 @@ $(document).ready(function () {
     $('.link-business').click(function () {
         $('html, body').animate({
             scrollTop: business.top
-        }, 2000);
+        }, 1000);
         return false;
 
     });
@@ -59,7 +59,7 @@ $(document).ready(function () {
     $('.link-corporate').click(function () {
         $('html, body').animate({
             scrollTop: corporate.top
-        }, 2000);
+        }, 1000);
         return false;
 
     });
@@ -67,7 +67,7 @@ $(document).ready(function () {
     $('.link-recruit').click(function () {
         $('html, body').animate({
             scrollTop: recruit.top
-        }, 2000);
+        }, 1000);
         return false;
 
     });
@@ -75,7 +75,7 @@ $(document).ready(function () {
     $('.link-contact').click(function () {
         $('html, body').animate({
             scrollTop: contact.top
-        }, 2000);
+        }, 1000);
         return false;
 
     });
@@ -83,7 +83,7 @@ $(document).ready(function () {
     $('.link-top').click(function () {
         $('html, body').animate({
             scrollTop: top.top
-        }, 2000);
+        }, 1000);
         return false;
 
     });

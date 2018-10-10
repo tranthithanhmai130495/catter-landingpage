@@ -44,15 +44,25 @@ a:focus, a:hover {
 
 .text-slider {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
     margin-top: -45px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-text-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .text-top {
-    font-size: 46px;
+    font-size: 60px;
     color: #ffffff;
     font-weight: 900;
     letter-spacing: 25px;
@@ -60,12 +70,12 @@ a:focus, a:hover {
 }
 
 .text-bottom {
-    font-size: 126px;
+    font-size: 122px;
     color: #ebff07;
     font-weight: 900;
-    letter-spacing: 65px;
+    letter-spacing: 82px;
     font-family: 'Roboto', sans-serif;
-    margin-left: -10px
+    margin-left: -10px;
 }
 
 .menu-header {
@@ -408,4 +418,13 @@ a:focus, a:hover {
 .box-recruit-image:hover,
 .box-image-content:hover{
     opacity: 0.7;
+}
+
+.box-image-content img, .box-recruit-image img {
+    transform: scale(1);
+    transition: all 0.35s ease-out;
+}
+
+.box-image-content:hover img, .box-recruit-image:hover img {
+    transform: scale(1.2);
 }
