@@ -398,3 +398,14 @@ a:focus, a:hover {
 .box-icon-warpper:hover .box-icon-text {
     color: #a5f81c;
 }
+
+.box-recruit-image,
+.box-image-content {
+    transition: opacity .35s ease;
+    cursor: pointer;
+}
+
+.box-recruit-image:hover,
+.box-image-content:hover{
+    opacity: 0.7;
+}

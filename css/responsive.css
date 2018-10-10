@@ -120,10 +120,6 @@
         width: 100%;
     }
 
-    .box-icon-item {
-        padding: 15px 20px;
-    }
-
     .box-button-more {
         margin-top: 25px;
     }
@@ -260,10 +256,6 @@
         padding-right: 0;
     }
 
-    .box-icon-item {
-        padding: 15px 20px;
-    }
-
     .box-icon-text {
         padding-top: 5px;
     }
@@ -340,5 +332,22 @@
     .text-footer {
         padding-right: 0;
         text-align: center;
+    }
+
+    .text-top {
+        font-size: 22px;
+        color: #ffffff;
+        font-weight: 900;
+        letter-spacing: 4px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .text-bottom {
+        font-size: 45px;
+        color: #ebff07;
+        font-weight: 900;
+        letter-spacing: 18px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 0;
     }
 }
